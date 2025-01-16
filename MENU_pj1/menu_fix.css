@@ -1,0 +1,557 @@
+/* 큰 틀 - 높이 변경 예정 */
+.container {
+  max-width: 1280px;
+  height: auto;
+  margin: 0px auto;
+  flex-direction: column;
+}
+
+/* 상단 및 하단 */
+.boxwrap,
+.boxwrap2 {
+  display: flex;
+}
+
+/* 상단 */
+.boxwrap {
+  height: 50%;
+  width: 100%;
+  flex-direction: row;
+}
+
+/* 하단 */
+.boxwrap2 {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(249, 246, 241);
+}
+
+/* 왼쪽 상단 */
+.box1 {
+  width: 40%;
+  background-color: rgb(44, 40, 37);
+}
+/* 상단 반응형*/
+@media (max-width: 769px) {
+  .boxwrap {
+    display: block;
+  }
+  .box1 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .box2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+}
+
+@media (max-width: 769px) {
+  .box2 {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.box2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box2top {
+  width: 100%;
+  height: 65%;
+  background-color: rgb(249, 246, 241);
+  overflow: hidden;
+}
+
+.box2bottom {
+  width: 100%;
+  height: 35%;
+  background-color: rgb(220, 210, 200);
+}
+
+.box1wrap {
+  margin: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.LUNCHSET {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.explain1 {
+  margin-top: 30px;
+}
+
+.explain {
+  font-size: 13px;
+}
+
+.menuname {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.setname {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setname1 {
+  margin-top: 20px;
+}
+
+.money {
+  display: flex;
+}
+
+.moneysize {
+  font-weight: bold;
+  font-size: 25px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.VND {
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 5px;
+}
+
+.plusmenu {
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+}
+
+.explain2 {
+  display: flex;
+}
+
+.box1kimchi {
+  display: flex;
+  margin-top: 20px;
+  height: 150px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.box1kimchi1 {
+  height: 100%;
+  flex-direction: column;
+}
+
+.box1kimchi2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.setname2,
+.samsetB {
+  margin-top: 20px;
+}
+
+.leftbottomimg {
+  display: flex;
+  margin-top: 45px;
+}
+
+.images3 {
+  position: relative;
+  margin-left: 20px;
+}
+
+.img3,
+.img4,
+.img5 {
+  position: absolute;
+  width: 20%;
+}
+
+.img3 {
+  left: 150px;
+  z-index: 3;
+}
+
+.img5 {
+  left: 75px;
+  z-index: 2;
+}
+
+.plus {
+  position: relative;
+  left: 10px;
+  margin-top: 50px;
+}
+
+/* 오른쪽 상단 */
+.box2wrap {
+  margin: 50px;
+  position: relative;
+}
+
+.setname4 {
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+.money4 {
+  position: absolute;
+  left: 300px;
+}
+
+.imgjayuk {
+  border-radius: 50%;
+  width: 430px;
+  height: 430px;
+  object-fit: cover;
+}
+
+.img6 {
+  position: absolute;
+  left: 25px;
+  top: 150px;
+}
+
+.imagesalign {
+  position: relative;
+  left: 500px;
+}
+
+/* 오른쪽 상단 청국장 */
+.img7 {
+  position: absolute;
+  top: 200px;
+}
+
+/* 오른쪽 상단 된장찌개 */
+.img8 {
+  position: absolute;
+  top: 10px;
+  z-index: 3;
+}
+
+/* 오른쪽 상단 김치찌개 */
+.img9 {
+  position: absolute;
+  top: 100px;
+  z-index: 2;
+}
+
+/* 오른쪽 하단 마진 */
+.box3wrap {
+  margin: 50px;
+  position: relative;
+  display: flex;
+}
+
+.money5 {
+  position: absolute;
+  left: 520px;
+}
+
+.setname4 {
+  position: absolute;
+  top: 45px;
+}
+
+.plusmenu2 {
+  position: absolute;
+  top: 100px;
+  font-size: 15px;
+}
+
+.explain6 {
+  position: absolute;
+  top: 190px;
+  left: 245px;
+}
+
+.imgmul {
+  position: absolute;
+  top: 45px;
+  left: 320px;
+}
+
+.imgbi {
+  position: absolute;
+  top: 45px;
+  left: 500px;
+}
+
+.or {
+  position: absolute;
+  top: 95px;
+  left: 468px;
+}
+
+/* 하단 */
+.box4wrap {
+  margin: 50px;
+}
+
+.blackbox {
+  background-color: rgb(44, 40, 37);
+  color: white;
+  width: 350px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.explain7 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.box3inbox {
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+/* 국, 찌개류 <-> 볶음류 사이 간격 */
+.box3inbox2 {
+  margin-top: 30px;
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+}
+
+.box3inbox3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kuk,
+.buk,
+.bunsik {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 550px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.bunsik1 {
+  height: 300px;
+}
+/* 국 박스 */
+.kukbox1,
+.kukbox2,
+.kukbox3 {
+  position: relative;
+  width: 120px;
+  left: 30px;
+  top: 30px;
+}
+
+.kukbox4 {
+  position: relative;
+  width: 550px;
+  left: 30px;
+  top: 120px;
+}
+
+.kukbox5,
+.kukbox6,
+.kukbox7 {
+  position: relative;
+  width: 120px;
+  left: 30px;
+  top: 150px;
+}
+
+.kukboxtop {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.kukboxmiddle {
+  display: flex;
+  width: 500px;
+}
+
+.kukboxbottom {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.namekuk {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.namekuk1,
+.namekuk2,
+.namekuk3 {
+  left: 30px;
+  top: 140px;
+  position: absolute;
+}
+
+.namekuk4 {
+  left: 160px;
+  top: 40px;
+  position: absolute;
+}
+
+.namekuk5,
+.namekuk7 {
+  left: 30px;
+  top: 140px;
+  position: absolute;
+}
+
+.namekuk6 {
+  left: -8px;
+  top: 140px;
+  position: absolute;
+}
+
+.kukmoney {
+  left: 10px;
+  top: 170px;
+  position: absolute;
+}
+
+.kukmoney4 {
+  left: 160px;
+  top: 80px;
+  position: absolute;
+}
+
+.moneyleft {
+  left: 5px;
+  position: absolute;
+}
+
+/* 볶음 박스 */
+.bukbox1,
+.bukbox2,
+.bukbox3 {
+  position: relative;
+  width: 120px;
+  left: 30px;
+  top: 30px;
+}
+
+.bukboxtop {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.namebuk {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.namebuk1 {
+  left: 20px;
+  top: 140px;
+  position: absolute;
+}
+
+.namebuk2,
+.namebuk3 {
+  text-align: center;
+  left: 10px;
+  top: 140px;
+  position: absolute;
+}
+
+.bukmoney {
+  left: 10px;
+  top: 170px;
+  position: absolute;
+}
+
+/* 분식 작은 박스 */
+
+.bunsik2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bunsik {
+  margin-top: 50px;
+}
+
+.bunsiklr {
+  display: flex;
+  justify-content: space-between;
+}
+.bunsikleft,
+.bunsikright {
+  padding-top: 10px;
+  width: 230px;
+}
+
+.bunsikmenu1,
+.bunsikmenu2,
+.bunsikmenu3,
+.bunsikmenu4,
+.bunsikmenu5,
+.bunsikmenu6,
+.bunsikmenu7,
+.bunsikmenu8,
+.bunsikmenu9,
+.bunsikmenu10 {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+
+.bunsikmenuname {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.bunsikmoney {
+  position: absolute;
+  left: 150px;
+}
+
+.bunsikmoney2 {
+  position: absolute;
+  left: 100px;
+}
+
+/* 만원 단위 - 라면  */
+.bunsikmoney3 {
+  position: absolute;
+  left: 115px;
+}
+/* 만원 단위 - 김밥 */
+.bunsikmoney4 {
+  position: absolute;
+  left: 165px;
+}
