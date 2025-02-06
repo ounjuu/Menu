@@ -2,7 +2,6 @@
 # 📜 메뉴판 README
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8f4e391c-127f-466b-a5b2-23a433a3ccd7" alt="menuimg" width=80%>
-
 </div>
 
 ## :page_facing_up: 프로젝트 소개
@@ -20,9 +19,9 @@
 #### :star: HTML과 CSS만으로 메뉴판을 홈페이지에 구현<br/>
 1. HTML: div, class, img 사용
 2. CSS: display, margin, position, border-radius, z-index 등 사용
+3. 메뉴를 누르면 각 메뉴의 상세 페이지로 이동
 <div align="center">
-  <img width=100% alt="menuimage" src="https://github.com/user-attachments/assets/96479545-ddf7-4a6b-88c3-fd6ea1b33b0d" />
+  <img width=100% alt="menuimage" src="https://github.com/user-attachments/assets/68626cc2-e716-4291-8285-27e224c1cd64" />
 </div>
 <br/>
 <br/>
-
