@@ -6,7 +6,7 @@
 </div>
 
 ## :page_facing_up: 프로젝트 소개
-1. 메뉴판을 홈페이지로 구현<br/>
+1. 배운 내용을 바탕으로 메뉴판을 홈페이지로 구현<br/>
 2. HTML과 CSS만 사용하여 만들어 본 프로젝트<br/><br/>
 
 ## :high_brightness: 개발 환경
@@ -17,7 +17,8 @@
 
 ## :hammer: 주요기능
 #### :star: HTML과 CSS만으로 메뉴판을 홈페이지에 구현<br/>
-1. CSS flex, fix 등 사용
+1. HTML: div, class, img 사용
+2. CSS: display, margin, position, border-radius, z-index 등 사용
 <div align="center">
   <img width=100% alt="menuimage" src="https://github.com/user-attachments/assets/96479545-ddf7-4a6b-88c3-fd6ea1b33b0d" />
 </div>
